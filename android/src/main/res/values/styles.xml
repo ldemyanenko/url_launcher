@@ -2,9 +2,7 @@
 <resources>
 
 
-    <style name="webview" parent="AppTheme.NoActionBar">
-        <item name="windowNoTitle">true</item>
-        <item name="windowActionBar">false</item>
+    <style name="webview" parent="@android:style/Theme.Black.NoTitleBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">false</item>
