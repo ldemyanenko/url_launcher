@@ -101,6 +101,11 @@ public class WebViewActivity extends Activity {
   }
 
   @Override
+  public void onBackPressed() {
+    // Do Here what ever you want do on back press;
+  }
+
+  @Override
   public boolean onKeyDown(int keyCode, KeyEvent event) {
     if (keyCode == KeyEvent.KEYCODE_BACK && webview.canGoBack()) {
       webview.goBack();
