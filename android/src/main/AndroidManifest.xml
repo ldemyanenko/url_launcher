@@ -2,7 +2,8 @@
   package="io.flutter.plugins.urllauncher">
   <application>
     <activity android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-      android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-      android:exported="false"/>
+        android:theme="@style/webview"
+        android:windowSoftInputMode="adjustResize"
+        android:exported="false"/>
   </application>
 </manifest>
