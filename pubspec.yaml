@@ -8,7 +8,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: io.flutter.plugins.urllauncher
+        package: io.flutter.plugins.customurllauncher
         pluginClass: UrlLauncherPlugin
       ios:
         pluginClass: FLTURLLauncherPlugin

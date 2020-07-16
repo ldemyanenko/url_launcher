@@ -1,4 +1,4 @@
-package io.flutter.plugins.urllauncher;
+package io.flutter.plugins.customurllauncher;
 
 import android.os.Bundle;
 import android.util.Log;

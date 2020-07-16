@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="io.flutter.plugins.urllauncher">
+  package="io.flutter.plugins.customurllauncher">
   <application>
-    <activity android:name="io.flutter.plugins.urllauncher.CustomWebViewActivity"
+    <activity android:name="io.flutter.plugins.customurllauncher.CustomWebViewActivity"
         android:theme="@style/webview"
         android:windowSoftInputMode="adjustResize"
         android:exported="false"/>
