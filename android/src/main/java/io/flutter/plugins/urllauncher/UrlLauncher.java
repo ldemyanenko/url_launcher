@@ -63,7 +63,7 @@ class UrlLauncher {
     Intent launchIntent;
     if (useWebView) {
       launchIntent =
-          WebViewActivity.createIntent(
+              CustomWebViewActivity.createIntent(
               activity, url, enableJavaScript, enableDomStorage, headersBundle);
     } else {
       launchIntent =
@@ -78,7 +78,7 @@ class UrlLauncher {
 
   /** Closes any activities started with {@link #launch} {@code useWebView=true}. */
   void closeWebView() {
-    applicationContext.sendBroadcast(new Intent(WebViewActivity.ACTION_CLOSE));
+    applicationContext.sendBroadcast(new Intent(CustomWebViewActivity.ACTION_CLOSE));
   }
 
   /** Result of a {@link #launch} call. */

@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*  Launches WebView activity */
-public class WebViewActivity extends Activity {
+public class CustomWebViewActivity extends Activity {
 
   /*
    * Use this to trigger a BroadcastReceiver inside WebViewActivity
@@ -125,7 +125,7 @@ public class WebViewActivity extends Activity {
       boolean enableJavaScript,
       boolean enableDomStorage,
       Bundle headersBundle) {
-    return new Intent(context, WebViewActivity.class)
+    return new Intent(context, CustomWebViewActivity.class)
         .putExtra(URL_EXTRA, url)
         .putExtra(ENABLE_JS_EXTRA, enableJavaScript)
         .putExtra(ENABLE_DOM_EXTRA, enableDomStorage)
