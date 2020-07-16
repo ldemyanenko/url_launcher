@@ -7,7 +7,7 @@ package io.flutter.plugins.urllauncherexample;
 import android.os.Bundle;
 import dev.flutter.plugins.e2e.E2EPlugin;
 import io.flutter.app.FlutterActivity;
-import io.flutter.plugins.urllauncher.UrlLauncherPlugin;
+import io.flutter.plugins.customurllauncher.UrlLauncherPlugin;
 
 public class EmbeddingV1Activity extends FlutterActivity {
 
@@ -16,6 +16,6 @@ public class EmbeddingV1Activity extends FlutterActivity {
     super.onCreate(savedInstanceState);
     E2EPlugin.registerWith(registrarFor("dev.flutter.plugins.e2e.E2EPlugin"));
     UrlLauncherPlugin.registerWith(
-        registrarFor("io.flutter.plugins.urllauncher.UrlLauncherPlugin"));
+        registrarFor("io.flutter.plugins.customurllauncher.UrlLauncherPlugin"));
   }
 }
